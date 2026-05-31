@@ -1,0 +1,739 @@
+{
+    "elogios": [
+        "O seu sorriso é o meu lugar favorito no mundo.",
+        "Amo a forma como você enxerga a vida. Sua essência é rara.",
+        "Se você soubesse o quanto a sua voz me acalma, falaria comigo o dia inteiro.",
+        "Sua força e dedicação me inspiram a ser alguém melhor todos os dias.",
+        "Mesmo nos dias mais caóticos, olhar para você me traz paz imediata.",
+        "A sua risada é, de longe, a melhor melodia que eu já ouvi.",
+        "Você tem um jeito único de iluminar qualquer ambiente em que entra.",
+        "A cada dia que passa, eu encontro um motivo novo para me apaixonar por você.",
+        "O seu abraço tem o poder de consertar qualquer dia ruim.",
+        "Admiro a sua inteligência e a paixão que você coloca em tudo o que faz.",
+        "Você é a minha certeza mais bonita no meio de tantas dúvidas.",
+        "Não há nada no universo que se compare ao brilho dos seus olhos.",
+        "A sua bondade e empatia fazem de você a pessoa mais incrível que eu conheço.",
+        "Você é a combinação perfeita entre doçura e força.",
+        "O jeito que você cuida das pessoas ao seu redor é lindo de se ver.",
+        "Perder-me nos seus olhos é a minha atividade favorita.",
+        "Você transforma momentos simples em lembranças inesquecíveis.",
+        "A sua determinação em ir atrás do que quer é simplesmente cativante.",
+        "Você tem a capacidade mágica de fazer eu me sentir a pessoa mais especial do mundo.",
+        "Conversar com você é como ler um livro incrível do qual não quero que a história acabe.",
+        "O seu bom humor ilumina até os dias mais nublados da minha vida.",
+        "Eu amo cada pequeno detalhe que faz de você quem você é.",
+        "Você é a minha poesia preferida, escrita em forma de ser humano.",
+        "A forma como você me entende sem que eu precise dizer uma palavra é surreal.",
+        "Seu coração é imenso e é um privilégio ter um espaço nele.",
+        "Eu poderia passar a vida inteira apenas te admirando.",
+        "Sua companhia é como um refúgio seguro onde eu sempre quero estar.",
+        "O mundo é um lugar muito melhor simplesmente porque você existe nele.",
+        "Admiro a sua resiliência e a forma como você supera qualquer obstáculo.",
+        "Você não é apenas o meu amor, é também a minha maior inspiração."
+    ],  
+
+    "poemas": [
+        {
+            "texto": "Amo-te como a planta que não floriu e tem\ndentro de si, oculta, a luz dasquelas flores...\nE por teu amor vive obscuro em meu corpo\no denso aroma que subiu da terra.",
+            "autor": "Pablo Neruda" 
+        },
+        {
+            "texto": "De tudo ao meu amor serei atento\nAntes, e com tal zelo, e sempre, e tanto\nQue mesmo em face do maior encanto\nDele se encante mais meu pensamento.",
+            "autor": "Vinicius de Moraes"
+        },
+        {
+            "texto": "Duvida da luz dos astros,\nDe que o sol tenha calor,\nDuvida até da verdade,\nMas confia em meu amor.",
+            "autor": "William Shakespeare"
+        },
+        {
+            "texto": "Amor é fogo que arde sem se ver,\né ferida que dói, e não se sente;\né um contentamento descontente,\né dor que desatina sem doer.",
+            "autor": "Luís Vaz de Camões"
+        },
+        {
+            "texto": "Eu te amo sem saber como, nem quando, nem onde, te amo diretamente sem problemas nem orgulho: assim te amo porque não sei amar de outra maneira.",
+            "autor": "Pablo Neruda"
+        },
+        {
+            "texto": "Amar é mudar a alma de casa.",
+            "autor": "Mario Quintana"
+        },
+        {
+            "texto": "Amo como ama o amor. Não conheço nenhuma outra razão para amar senão amar. Que queres que te diga, além de que te amo, se o que quero dizer-te é que te amo?",
+            "autor": "Fernando Pessoa"
+        },
+        {
+            "texto": "Que não seja imortal, posto que é chama\nMas que seja infinito enquanto dure.",
+            "autor": "Vinicius de Moraes"
+        },
+        {
+            "texto": "Tão bom morrer de amor! E continuar vivendo...",
+            "autor": "Mario Quintana"
+        },
+        {
+            "texto": "Tudo o que sabemos do amor, é que o amor é tudo que existe.",
+            "autor": "Emily Dickinson"
+        },
+        {
+            "texto": "Se eu sei o que é o amor, é por sua causa.",
+            "autor": "Hermann Hesse"
+        },
+        {
+            "texto": "Amar se aprende amando.",
+            "autor": "Carlos Drummond de Andrade"
+        },
+        {
+            "texto": "Eu quero amar, amar perdidamente!\nAmar só por amar: Aqui... além...\nMais Este e Aquele, o Outro e toda a gente...\nAmar! Amar! E não amar ninguém!",
+            "autor": "Florbela Espanca"
+        },
+        {
+            "texto": "O valor das coisas não está no tempo que elas duram, mas na intensidade com que acontecem. Por isso, existem momentos inesquecíveis, coisas inexplicáveis e pessoas incomparáveis.",
+            "autor": "Fernando Pessoa"
+        },
+        {
+            "texto": "A cada dia que vivo, mais me convenço de que o desperdício da vida está no amor que não damos, nas forças que não usamos, na prudência egoísta que nada arrisca.",
+            "autor": "Carlos Drummond de Andrade"
+        },
+        {
+            "texto": "Lutar pelo amor é bom, mas alcançá-lo sem luta é melhor.",
+            "autor": "William Shakespeare"
+        },
+        {
+            "texto": "O verdadeiro amor nunca se desgasta. Quanto mais se dá mais se tem.",
+            "autor": "Antoine de Saint-Exupéry"
+        },
+        {
+            "texto": "Cada qual sabe amar a seu modo; o modo, pouco importa; o essencial é que saiba amar.",
+            "autor": "Machado de Assis"
+        },
+        {
+            "texto": "A suprema felicidade da vida é a convicção de que somos amados.",
+            "autor": "Victor Hugo"
+        },
+        {
+            "texto": "Eu não existo longe de você\nE a solidão é o meu pior castigo\nEu conto as horas pra poder te ver\nMas o relógio tá de mal comigo.",
+            "autor": "Vinicius de Moraes"
+        },
+        {
+            "texto": "Renda-se, como eu me rendi. Mergulhe no que você não conhece como eu mergulhei. Não se preocupe em entender, viver ultrapassa qualquer entendimento.",
+            "autor": "Clarice Lispector"
+        },
+        {
+            "texto": "As mais lindas palavras de amor são ditas no silêncio de um olhar.",
+            "autor": "Leonardo da Vinci"
+        },
+        {
+            "texto": "Amai, porque nada melhor para a saúde que um amor correspondido.",
+            "autor": "Vinicius de Moraes"
+        },
+        {
+            "texto": "Eu te amo porque todo o universo conspirou para que eu chegasse até você.",
+            "autor": "Paulo Coelho"
+        },
+        {
+            "texto": "O amor não se vê com os olhos mas com o coração.",
+            "autor": "William Shakespeare"
+        },
+        {
+            "texto": "Se o amor é fantasia, eu encontro-me ultimamente em pleno carnaval.",
+            "autor": "Toquinho / Mutinho"
+        },
+        {
+            "texto": "Quando te vi, amei-te já muito antes.\nTornei a achar-te quando te encontrei.",
+            "autor": "Fernando Pessoa"
+        },
+        {
+            "texto": "O amor é a única paixão que não admite passado nem futuro.",
+            "autor": "José de Alencar"
+        },
+        {
+            "texto": "Onde há ruína, há esperança de um tesouro.",
+            "autor": "Rumi"
+        },
+        {
+            "texto": "Se me amas, ama-me baixinho\nNão o grites de cima dos telhados\nDeixa em paz os passarinhos\nDeixa em paz a mim!\nSe me queres, enfim,\ntem de ser bem devagarinho, Amada.",
+            "autor": "Mario Quintana"
+        }
+    ],
+
+    "livros": [
+        {
+            "texto": "De que são feitas as nossas almas, a minha e a dele são iguais.",
+            "autor": "Emily Brontë",
+            "obra": "O Morro dos Ventos Uivantes"
+        },
+        {
+            "texto": "Eu te amo sem saber como, nem quando, nem onde, te amo diretamente sem problemas nem orgulho: assim te amo porque não sei amar de outra maneira.",
+            "autor": "Pablo Neruda",
+            "obra": "Cem Sonetos de Amor"
+        },
+        {
+            "texto": "Só se vê bem com o coração, o essencial é invisível aos olhos.",
+            "autor": "Antoine de Saint-Exupéry",
+            "obra": "O Pequeno Príncipe"
+        },
+        {
+            "texto": "Me apaixonei do mesmo jeito que alguém cai no sono: gradativamente e de repente, de uma hora para outra.",
+            "autor": "John Green",
+            "obra": "A Culpa é das Estrelas"
+        },
+        {
+            "texto": "Você me enfeitiçou, de corpo e alma, e eu amo, amo, amo você.",
+            "autor": "Jane Austen",
+            "obra": "Orgulho e Preconceito"
+        },
+        {
+            "texto": "Ele a olhava do jeito que toda mulher quer ser olhada por um homem.",
+            "autor": "F. Scott Fitzgerald",
+            "obra": "O Grande Gatsby"
+        },
+        {
+            "texto": "O melhor amor é aquele que acorda a alma e nos faz querer mais, que coloca fogo em nossos corações e traz paz às nossas mentes.",
+            "autor": "Nicholas Sparks",
+            "obra": "Diário de uma Paixão"
+        },
+        {
+            "texto": "Prefiro compartilhar uma vida com você a encarar todas as eras deste mundo sozinha.",
+            "autor": "J.R.R. Tolkien",
+            "obra": "O Senhor dos Anéis: A Sociedade do Anel"
+        },
+        {
+            "texto": "Depois de todo esse tempo? — Sempre.",
+            "autor": "J.K. Rowling",
+            "obra": "Harry Potter e as Relíquias da Morte"
+        },
+        {
+            "texto": "Tinha os olhos de ressaca... Trazia não sei que fluido misterioso e enérgico, uma força que arrastava para dentro.",
+            "autor": "Machado de Assis",
+            "obra": "Dom Casmurro"
+        },
+        {
+            "texto": "Quando se ama uma pessoa, ama-se por inteiro, como ela é, e não como gostaríamos que fosse.",
+            "autor": "Liev Tolstói",
+            "obra": "Anna Karenina"
+        },
+        {
+            "texto": "Amar outra pessoa é ver a face de Deus.",
+            "autor": "Victor Hugo",
+            "obra": "Os Miseráveis"
+        },
+        {
+            "texto": "Cruzei oceanos de tempo para te encontrar.",
+            "autor": "Bram Stoker",
+            "obra": "Drácula"
+        },
+        {
+            "texto": "Você está marcada no meu coração. Desde o dia em que chegou.",
+            "autor": "Jojo Moyes",
+            "obra": "Como Eu Era Antes de Você"
+        },
+        {
+            "texto": "Ela não era bonita. Ela era arte, e a arte não tem que ser bonita; tem que fazer você sentir alguma coisa.",
+            "autor": "Rainbow Rowell",
+            "obra": "Eleanor & Park"
+        },
+        {
+            "texto": "Pode quebrar meu coração. Mil vezes, se desejar. Sempre foi seu para machucar como quiser.",
+            "autor": "Kiera Cass",
+            "obra": "A Seleção"
+        },
+        {
+            "texto": "Aconteça o que acontecer amanhã, tivemos o hoje.",
+            "autor": "David Nicholls",
+            "obra": "Um Dia"
+        },
+        {
+            "texto": "Nós aceitamos o amor que achamos que merecemos.",
+            "autor": "Stephen Chbosky",
+            "obra": "As Vantagens de Ser Invisível"
+        },
+        {
+            "texto": "Quando se ama, as coisas fazem ainda mais sentido.",
+            "autor": "Paulo Coelho",
+            "obra": "O Alquimista"
+        },
+        {
+            "texto": "A única coisa que me dói na morte é não morrer de amor.",
+            "autor": "Gabriel García Márquez",
+            "obra": "O Amor nos Tempos do Cólera"
+        },
+        {
+            "texto": "Eu te amo, e vou te amar até morrer, e se houver uma vida depois dessa, vou te amar também.",
+            "autor": "Cassandra Clare",
+            "obra": "Cidade de Vidro"
+        },
+        {
+            "texto": "Você me deu uma eternidade dentro dos nossos dias numerados, e sou muito grato por isso.",
+            "autor": "John Green",
+            "obra": "A Culpa é das Estrelas"
+        },
+        {
+            "texto": "Foi o tempo que dedicaste à tua rosa que a fez tão importante.",
+            "autor": "Antoine de Saint-Exupéry",
+            "obra": "O Pequeno Príncipe"
+        },
+        {
+            "texto": "É você que eu quero. Preciso de você para sobreviver.",
+            "autor": "Suzanne Collins",
+            "obra": "Em Chamas (Jogos Vorazes)"
+        },
+        {
+            "texto": "Ele já pertencia a ela. Tudo o que havia de bom nele já era dela.",
+            "autor": "Markus Zusak",
+            "obra": "A Menina que Roubava Livros"
+        },
+        {
+            "texto": "Eu ardo por você.",
+            "autor": "Julia Quinn",
+            "obra": "O Duque e Eu"
+        },
+        {
+            "texto": "E eu a amava. Amava tanto que a ideia de viver sem ela me aterrorizava.",
+            "autor": "Taylor Jenkins Reid",
+            "obra": "Os Sete Maridos de Evelyn Hugo"
+        },
+        {
+            "texto": "Eu o reconheceria apenas pelo toque, pelo cheiro; o reconheceria cego, da forma como uma respiração é separada de outra.",
+            "autor": "Madeline Miller",
+            "obra": "A Canção de Aquiles"
+        },
+        {
+            "texto": "Onde estiver o seu coração, ali estará o seu tesouro.",
+            "autor": "Paulo Coelho",
+            "obra": "O Alquimista"
+        },
+        {
+            "texto": "Enquanto formos lembrados, nunca morreremos.",
+            "autor": "Carlos Ruiz Zafón",
+            "obra": "A Sombra do Vento"
+        }
+    ],
+
+    "telas": [
+        {
+            "texto": "Não importa quantas vezes eu reencarne, em qualquer época, eu sempre vou me apaixonar por você.",
+            "personagem": "Meliodas",
+            "obra": "The Seven Deadly Sins"
+        },
+        {
+            "texto": "Eu não luto apenas para proteger o mundo, eu luto para proteger quem eu amo, porque você é o meu mundo.",
+            "personagem": "Meliodas (Inspirado)",
+            "obra": "The Seven Deadly Sins"
+        },
+        {
+            "texto": "Mesmo que você perca suas memórias ou que o tempo passe, o que sinto por você é eterno.",
+            "personagem": "Ban",
+            "obra": "The Seven Deadly Sins"
+        },
+        {
+            "texto": "Você é o meu cosmo, a energia que me faz levantar e lutar mesmo quando tudo parece impossível.",
+            "personagem": "Seiya (Inspirado)",
+            "obra": "Os Cavaleiros do Zodíaco"
+        },
+        {
+            "texto": "A verdadeira força não vem da armadura que vestimos, mas sim da pessoa que juramos proteger.",
+            "personagem": "Shiryu (Inspirado)",
+            "obra": "Os Cavaleiros do Zodíaco"
+        },
+        {
+            "texto": "Eu posso lutar contra os inimigos mais fortes do universo, mas a única coisa que não posso perder é você.",
+            "personagem": "Goku (Inspirado)",
+            "obra": "Dragon Ball"
+        },
+        {
+            "texto": "Você amoleceu meu coração. Antes era só orgulho, agora existe um espaço que é inteiramente seu.",
+            "personagem": "Vegeta (Inspirado)",
+            "obra": "Dragon Ball"
+        },
+        {
+            "texto": "Eu cruzaria a Grand Line inteira quantas vezes fossem necessárias só para te encontrar. Você é o meu maior tesouro.",
+            "personagem": "Inspirado no Universo",
+            "obra": "One Piece"
+        },
+        {
+            "texto": "Se eu não puder proteger o seu sorriso, então de nada serve a minha força.",
+            "personagem": "Monkey D. Luffy (Inspirado)",
+            "obra": "One Piece"
+        },
+        {
+            "texto": "Mesmo no fundo do oceano mais escuro, a sua voz seria a luz que me guiaria de volta.",
+            "personagem": "Sanji (Inspirado)",
+            "obra": "One Piece"
+        },
+        {
+            "texto": "Laços não são sobre estar sempre perto, mas sobre ter alguém no coração não importa a distância.",
+            "personagem": "Naruto Uzumaki",
+            "obra": "Naruto"
+        },
+        {
+            "texto": "Eu nunca volto atrás na minha palavra. E a minha promessa é te amar e te proteger para sempre.",
+            "personagem": "Naruto Uzumaki (Inspirado)",
+            "obra": "Naruto"
+        },
+        {
+            "texto": "Você foi a luz que dissipou a escuridão quando eu mais precisava encontrar o caminho.",
+            "personagem": "Sasuke Uchiha (Inspirado)",
+            "obra": "Naruto"
+        },
+        {
+            "texto": "A chama do meu coração arde muito mais forte quando lembro que tenho você ao meu lado.",
+            "personagem": "Kyojuro Rengoku (Inspirado)",
+            "obra": "Demon Slayer (Kimetsu no Yaiba)"
+        },
+        {
+            "texto": "Não importa o quão sombria seja a noite, o fio que nos une nunca será cortado.",
+            "personagem": "Tanjiro Kamado (Inspirado)",
+            "obra": "Demon Slayer (Kimetsu no Yaiba)"
+        },
+        {
+            "texto": "A coisa mais importante que eu posso fazer é amar você e ser amado por você.",
+            "personagem": "Christian",
+            "obra": "Moulin Rouge"
+        },
+        {
+            "texto": "O amor é a única coisa que somos capazes de perceber que transcende as dimensões do tempo e do espaço.",
+            "personagem": "Dra. Amelia Brand",
+            "obra": "Interestelar"
+        },
+        {
+            "texto": "Eu prefiro morrer amanhã do que viver cem anos sem conhecer você.",
+            "personagem": "John Smith",
+            "obra": "Pocahontas"
+        },
+        {
+            "texto": "Quando você percebe que quer passar o resto da sua vida com alguém, você quer que o resto da sua vida comece o mais rápido possível.",
+            "personagem": "Harry Burns",
+            "obra": "Harry e Sally: Feitos um para o Outro"
+        },
+        {
+            "texto": "Para mim, você é perfeita. E o meu coração despedaçado vai te amar até você ficar parecendo uma múmia.",
+            "personagem": "Mark",
+            "obra": "Simplesmente Amor"
+        },
+        {
+            "texto": "Eu não sou um homem inteligente, mas eu sei o que é o amor.",
+            "personagem": "Forrest Gump",
+            "obra": "Forrest Gump: O Contador de Histórias"
+        },
+        {
+            "texto": "O nosso amor é como o vento: não posso ver, mas posso sentir.",
+            "personagem": "Landon Carter",
+            "obra": "Um Amor para Recordar"
+        },
+        {
+            "texto": "Sempre seu. Sempre minha. Sempre nosso.",
+            "personagem": "Mr. Big",
+            "obra": "Sex and the City (Citação a Beethoven)"
+        },
+        {
+            "texto": "Foi como se, naquele momento, o universo inteiro existisse apenas para unir nós dois.",
+            "personagem": "Jonathan Trager",
+            "obra": "Escrito nas Estrelas"
+        },
+        {
+            "texto": "Eu olho para você e vejo o resto da minha vida em frente aos meus olhos.",
+            "personagem": "Homer Simpson (Inspirado)",
+            "obra": "Os Simpsons"
+        },
+        {
+            "texto": "Algumas pessoas valem a pena derreter.",
+            "personagem": "Olaf",
+            "obra": "Frozen"
+        },
+        {
+            "texto": "Se você viver até os cem anos, eu quero viver até os cem menos um dia, assim nunca terei que viver sem você.",
+            "personagem": "Ursinho Pooh",
+            "obra": "Ursinho Pooh"
+        },
+        {
+            "texto": "Eu te amo muito, provavelmente mais do que qualquer pessoa poderia amar outra pessoa.",
+            "personagem": "Henry Roth",
+            "obra": "Como Se Fosse a Primeira Vez"
+        },
+        {
+            "texto": "O melhor amor é aquele que acorda a alma; que nos faz querer mais, que coloca fogo em nossos corações e traz paz à nossa mente.",
+            "personagem": "Noah Calhoun",
+            "obra": "Diário de Uma Paixão"
+        },
+        {
+            "texto": "Tudo o que eu tenho feito é olhar para você.",
+            "personagem": "Rick Blaine",
+            "obra": "Casablanca"
+        }
+    ],
+
+    "musicas": [
+        {
+            "texto": "Baby, you're all that I want. When you're lyin' here in my arms, I'm findin' it hard to believe we're in heaven.",
+            "artista": "Bryan Adams",
+            "musica": "Heaven"
+        },
+        {
+            "texto": "Oh, once in your life you find someone, who will turn your world around. Bring you up when you're feelin' down.",
+            "artista": "Bryan Adams",
+            "musica": "Heaven"
+        },
+        {
+            "texto": "Look into my eyes, you will see what you mean to me. Search your heart, search your soul.",
+            "artista": "Bryan Adams",
+            "musica": "(Everything I Do) I Do It For You"
+        },
+        {
+            "texto": "When I see your face, there's not a thing that I would change, 'cause you're amazing, just the way you are.",
+            "artista": "Bruno Mars",
+            "musica": "Just The Way You Are"
+        },
+        {
+            "texto": "'Cause your sex takes me to paradise.",
+            "artista": "Bruno Mars",
+            "musica": "Locked Out of Heaven"
+        },
+        {
+            "texto": "Treasure, that is what you are. Honey, you're my golden star.",
+            "artista": "Bruno Mars",
+            "musica": "Treasure"
+        },
+        {
+            "texto": "It's a beautiful night, we're looking for something dumb to do. Hey baby, I think I wanna marry you.",
+            "artista": "Bruno Mars",
+            "musica": "Marry You"
+        },
+        {
+            "texto": "I don't wanna close my eyes, I don't wanna fall asleep, 'cause I'd miss you, baby, and I don't wanna miss a thing.",
+            "artista": "Aerosmith",
+            "musica": "I Don't Want to Miss a Thing"
+        },
+        {
+            "texto": "Your sex is on fire. Consumed with what's to transpire.",
+            "artista": "Kings of Leon",
+            "musica": "Sex on Fire"
+        },
+        {
+            "texto": "So close, no matter how far. Couldn't be much more from the heart. Forever trusting who we are.",
+            "artista": "Metallica",
+            "musica": "Nothing Else Matters"
+        },
+        {
+            "texto": "She's got a smile that it seems to me reminds me of childhood memories, where everything was as fresh as the bright blue sky.",
+            "artista": "Guns N' Roses",
+            "musica": "Sweet Child O' Mine"
+        },
+        {
+            "texto": "I was born to love you, with every single beat of my heart.",
+            "artista": "Queen",
+            "musica": "I Was Born to Love You"
+        },
+        {
+            "texto": "I'll be there for you, these five words I swear to you. When you breathe, I want to be the air for you.",
+            "artista": "Bon Jovi",
+            "musica": "I'll Be There For You"
+        },
+        {
+            "texto": "I'd give up forever to touch you, 'cause I know that you feel me somehow.",
+            "artista": "Goo Goo Dolls",
+            "musica": "Iris"
+        },
+        {
+            "texto": "You're the closest to heaven that I'll ever be, and I don't want to go home right now.",
+            "artista": "Goo Goo Dolls",
+            "musica": "Iris"
+        },
+        {
+            "texto": "I was made for lovin' you baby, you were made for lovin' me.",
+            "artista": "KISS",
+            "musica": "I Was Made For Lovin' You"
+        },
+        {
+            "texto": "Somewhere in her smile she knows, that I don't need no other lover.",
+            "artista": "The Beatles",
+            "musica": "Something"
+        },
+        {
+            "texto": "Because maybe, you're gonna be the one that saves me. And after all, you're my wonderwall.",
+            "artista": "Oasis",
+            "musica": "Wonderwall"
+        },
+        {
+            "texto": "Wild horses couldn't drag me away from you.",
+            "artista": "The Rolling Stones",
+            "musica": "Wild Horses"
+        },
+        {
+            "texto": "Whenever I'm alone with you, you make me feel like I am home again.",
+            "artista": "The Cure",
+            "musica": "Lovesong"
+        },
+        {
+            "texto": "However far away, I will always love you.",
+            "artista": "The Cure",
+            "musica": "Lovesong"
+        },
+        {
+            "texto": "Secrets I have held in my heart, are harder to hide than I thought. Maybe I just wanna be yours.",
+            "artista": "Arctic Monkeys",
+            "musica": "I Wanna Be Yours"
+        },
+        {
+            "texto": "Look at the stars, look how they shine for you. And everything you do.",
+            "artista": "Coldplay",
+            "musica": "Yellow"
+        },
+        {
+            "texto": "All I want is for you to be happy and take this moment to make you my family.",
+            "artista": "Red Hot Chili Peppers",
+            "musica": "Hard to Concentrate"
+        },
+        {
+            "texto": "And I'm on my way to believing. Oh, and you are the only exception.",
+            "artista": "Paramore",
+            "musica": "The Only Exception"
+        },
+        {
+            "texto": "If everything could ever feel this real forever. If anything could ever be this good again.",
+            "artista": "Foo Fighters",
+            "musica": "Everlong"
+        },
+        {
+            "texto": "Two worlds collided, and they could never tear us apart.",
+            "artista": "INXS",
+            "musica": "Never Tear Us Apart"
+        },
+        {
+            "texto": "All I want is you.",
+            "artista": "U2",
+            "musica": "All I Want Is You"
+        },
+        {
+            "texto": "How I wish, how I wish you were here. We're just two lost souls swimming in a fish bowl, year after year.",
+            "artista": "Pink Floyd",
+            "musica": "Wish You Were Here"
+        },
+        {
+            "texto": "If the sun refused to shine, I would still be loving you. When mountains crumble to the sea, there will still be you and me.",
+            "artista": "Led Zeppelin",
+            "musica": "Thank You"
+        }
+    ],
+
+    "frases": [
+        {
+            "texto": "A medida do amor é amar sem medida.",
+            "autor": "Santo Agostinho"
+        },
+        {
+            "texto": "Você é a poesia que eu nunca soube escrever, mas que sempre quis ler.",
+            "autor": "Autor Desconhecido"
+        },
+        {
+            "texto": "Aquilo que o coração ama fica eterno.",
+            "autor": "Rubem Alves"
+        },
+        {
+            "texto": "Amar não é olhar um para o outro, é olhar juntos na mesma direção.",
+            "autor": "Antoine de Saint-Exupéry"
+        },
+        {
+            "texto": "As verdadeiras histórias de amor nunca têm fim.",
+            "autor": "Richard Bach"
+        },
+        {
+            "texto": "Amo-te não pelo que és, mas pelo que sou quando estou contigo.",
+            "autor": "Gabriel García Márquez"
+        },
+        {
+            "texto": "Ser profundamente amado por alguém nos dá força; amar alguém profundamente nos dá coragem.",
+            "autor": "Lao-Tsé"
+        },
+        {
+            "texto": "Há sempre alguma loucura no amor. Mas há sempre um pouco de razão na loucura.",
+            "autor": "Friedrich Nietzsche"
+        },
+        {
+            "texto": "Amar é encontrar na felicidade de outrem a própria felicidade.",
+            "autor": "Gottfried Leibniz"
+        },
+        {
+            "texto": "O coração tem razões que a própria razão desconhece.",
+            "autor": "Blaise Pascal"
+        },
+        {
+            "texto": "Nós amamos com um amor que era mais do que amor.",
+            "autor": "Edgar Allan Poe"
+        },
+        {
+            "texto": "O amor é a poesia dos sentidos.",
+            "autor": "Honoré de Balzac"
+        },
+        {
+            "texto": "Uma palavra nos liberta de todo o peso e da dor da vida: essa palavra é amor.",
+            "autor": "Sófocles"
+        },
+        {
+            "texto": "Amar é admirar com o coração. Admirar é amar com o cérebro.",
+            "autor": "Théophile Gautier"
+        },
+        {
+            "texto": "Não há cura para o amor além de amar mais.",
+            "autor": "Henry David Thoreau"
+        },
+        {
+            "texto": "A vida sem amor é como uma árvore sem flores e sem frutos.",
+            "autor": "Khalil Gibran"
+        },
+        {
+            "texto": "Para estar junto não é preciso estar perto, e sim do lado de dentro.",
+            "autor": "Leonardo da Vinci"
+        },
+        {
+            "texto": "No fundo de cada alma há tesouros escondidos que só o amor permite descobrir.",
+            "autor": "Édouard Schuré"
+        },
+        {
+            "texto": "Apenas o amor nos dá o sabor da eternidade.",
+            "autor": "Provérbio Judaico"
+        },
+        {
+            "texto": "O amor é a chave mestre que abre os portões da felicidade.",
+            "autor": "Oliver Wendell Holmes"
+        },
+        {
+            "texto": "O amor constrói pontes onde não existem.",
+            "autor": "R. H. Delaney"
+        },
+        {
+            "texto": "Amar é dar a alguém a paz que você mesmo procura.",
+            "autor": "Autor Desconhecido"
+        },
+        {
+            "texto": "O amor é a força mais sutil do mundo.",
+            "autor": "Mahatma Gandhi"
+        },
+        {
+            "texto": "Sorte é encontrar a vida na mesma pessoa que se encontra o amor.",
+            "autor": "Autor Desconhecido"
+        },
+        {
+            "texto": "Purifica o teu coração antes de permitires que o amor entre nele, pois até o mel mais doce azeda num recipiente sujo.",
+            "autor": "Pitágoras"
+        },
+        {
+            "texto": "Tão bom morrer de amor! E continuar vivendo...",
+            "autor": "Mario Quintana"
+        },
+        {
+            "texto": "Amar é um elo entre o centro e a extensão do nosso ser.",
+            "autor": "Carl Jung"
+        },
+        {
+            "texto": "Lutar pelo amor é bom, mas alcançá-lo sem luta é melhor.",
+            "autor": "William Shakespeare"
+        },
+        {
+            "texto": "Dê a quem você ama: asas para voar, raízes para voltar e motivos para ficar.",
+            "autor": "Dalai Lama"
+        },
+        {
+            "texto": "Te amar é a aventura mais bonita que a vida já me proporcionou.",
+            "autor": "Autor Desconhecido"
+        }
+    ]
+}
