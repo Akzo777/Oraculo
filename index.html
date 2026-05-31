@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Oráculo do Afeto</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Oráculo">
+  <link rel="apple-touch-icon" href="icone.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="library-background"></div>
+  <div class="library-overlay"></div>
+
+  <button class="close-book-btn" id="close-book-btn" onclick="closeBook()">Fechar Livro 📖</button>
+
+  <div class="scene" id="scene">
+    <div class="book" id="book" onclick="openBook()">
+      
+      <div class="cover">
+        <div class="front">
+          <div class="book-binding"></div>
+          <div class="cover-art">
+            <h2 class="book-title-front">Oráculo<br>do<br>Afeto</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="page-content center-content">
+            <h1 class="title-mini">O Oráculo</h1>
+            <p class="subtitle">Permita que o destino escolha as palavras certas para este momento.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div class="page-content">
+          <div class="parchment-mini">
+            <div id="quote-text">As páginas aguardam em silêncio... Clique no botão abaixo para revelar um encanto.</div>
+            <div id="quote-author"></div>
+          </div>
+          <button id="btn-read" onclick="readSomething(event)">Ler um encanto ✨</button>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="click-prompt" id="prompt">Clique no Livro para Abrir 📚</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

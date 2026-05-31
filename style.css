@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600&display=swap');
+
+* { box-sizing: border-box; }
+
+body, html { 
+  margin: 0; padding: 0; height: 100%; 
+  font-family: 'Cormorant Garamond', serif; 
+  background-color: #0a0604;
+  overflow: hidden; 
+}
+
+/* Fundo da Biblioteca Visível */
+.library-background {
+  position: fixed; top: -2%; left: -2%; width: 104%; height: 104%;
+  background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2000&auto=format&fit=crop');
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(6px); 
+  z-index: 1; 
+}
+
+/* Overlay para escurecer o fundo */
+.library-overlay {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(15, 8, 4, 0.6);
+  z-index: 2; 
+}
+
+/* --- Botão Flutuante --- */
+.close-book-btn { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: rgba(30, 40, 65, 0.9); color: #e8dcc5; border: 1px solid #c9a073; padding: 10px 24px; border-radius: 20px; cursor: pointer; font-family: 'Nunito', sans-serif; font-weight: bold; font-size: 12px; transition: 0.3s; opacity: 0; pointer-events: none; z-index: 9999; text-transform: uppercase; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+.close-book-btn.visible { opacity: 1; pointer-events: auto; }
+.close-book-btn:hover { background: #0c142b; }
+
+/* --- Configuração do Palco 3D --- */
+.scene { position: relative; z-index: 10; perspective: 1500px; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+
+/* --- Aviso de Clique (Estilo Balão) --- */
+.click-prompt { 
+  position: absolute; bottom: 12%; font-weight: bold; color: #fce4c8; 
+  text-align: center; animation: blink 2s infinite; font-size: 13px; 
+  font-family: 'Nunito', sans-serif; letter-spacing: 1.5px; 
+  transition: opacity 0.4s ease; text-transform: uppercase;
+  background: rgba(10, 5, 2, 0.75); padding: 10px 24px; 
+  border-radius: 30px; border: 1px solid rgba(201, 160, 115, 0.25); 
+  backdrop-filter: blur(5px); box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+.click-prompt.hidden { opacity: 0; pointer-events: none; visibility: hidden; }
+
+@keyframes blink { 
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; transform: scale(1.02); } 
+}
+
+/* --- O Livro --- */
+.book { 
+  width: 340px; height: 500px; position: relative; 
+  transform-style: preserve-3d; 
+  transform: rotateX(10deg) rotateY(-15deg); 
+  transition: transform 1.2s cubic-bezier(0.25, 0.8, 0.25, 1); 
+  cursor: pointer; 
+}
+.book.open { transform: rotateX(0deg) rotateY(0deg) translateX(170px); cursor: default; }
+
+/* --- Capa do Livro --- */
+.cover { 
+  position: absolute; width: 100%; height: 100%; 
+  transform-origin: left; transform-style: preserve-3d; 
+  transition: transform 1.2s cubic-bezier(0.25, 0.8, 0.25, 1); z-index: 3; 
+}
+.book.open .cover { transform: rotateY(-180deg); box-shadow: 10px 10px 30px rgba(0,0,0,0.6); }
+
+.front, .back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 2px 10px 10px 2px; }
+
+/* --- Capa Cósmica --- */
+.front { 
+  background: linear-gradient(135deg, #070d1f 0%, #17284b 50%, #284473 100%); 
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png'), linear-gradient(135deg, #070d1f 0%, #17284b 50%, #1b335e 100%);
+  border: 1px solid #040914; box-shadow: inset 4px 0 15px rgba(0,0,0,0.7), 5px 5px 20px rgba(0,0,0,0.6); 
+  display: flex; justify-content: center; align-items: center; overflow: hidden;
+}
+.book-binding { position: absolute; left: 0; top: 0; width: 25px; height: 100%; background: linear-gradient(to right, #02040a, #0d182e, #02040a); border-right: 1px solid #000; box-shadow: 2px 0 5px rgba(0,0,0,0.7); z-index: 4; }
+.cover-art { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at center, transparent 40%, rgba(0,0,0,0.5) 100%); position: relative; }
+.book-title-front { 
+  font-family: 'Cinzel', serif; color: #fce4c8; font-size: 2.2rem; text-align: center; text-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 2px 2px 5px #000; 
+  letter-spacing: 3px; z-index: 2; margin-left: 15px; border: 1px solid rgba(252, 228, 200, 0.3); border-radius: 50%; padding: 50px 30px;
+  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 60%); box-shadow: 0 0 30px rgba(252, 228, 200, 0.05);
+}
+
+/* --- Verso da Capa --- */
+.back { 
+  background: #f4e8d1; background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+  transform: rotateY(180deg); border-radius: 10px 2px 2px 10px; border-left: 4px solid #d0bc9d; box-shadow: inset 5px 0 20px rgba(0,0,0,0.1);
+}
+
+/* --- Páginas Internas --- */
+.pages { 
+  position: absolute; width: 98%; height: 98%; top: 1%; right: 0; 
+  background: #f4e8d1; background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+  z-index: 1; border-radius: 2px 8px 8px 2px; box-shadow: inset -5px 0 20px rgba(0,0,0,0.05), 5px 5px 15px rgba(0,0,0,0.4); border-right: 3px solid #e0cdb0;
+}
+.page-content { padding: 30px 25px; height: 100%; display: flex; flex-direction: column; opacity: 0; transition: opacity 0.4s ease; pointer-events: none; }
+.center-content { align-items: center; justify-content: center; text-align: center; }
+.book.open .page-content { opacity: 1; pointer-events: auto; transition-delay: 0.6s; }
+
+/* --- Textos --- */
+.title-mini { font-family: 'Cinzel', serif; color: #17284b; font-size: 1.8rem; margin-top: 0; margin-bottom: 15px; border-bottom: 1px solid #17284b; padding-bottom: 10px; width: 100%; text-align: center; }
+.subtitle { font-size: 1.2rem; color: #3e4a66; font-style: italic; }
+.parchment-mini { flex: 1; display: flex; flex-direction: column; justify-content: center; width: 100%; }
+#quote-text { font-size: 1.25rem; line-height: 1.5; color: #1a1a1a; text-align: center; white-space: pre-wrap; font-weight: 600; min-height: 140px; display: flex; align-items: center; justify-content: center; }
+#quote-author { margin-top: 15px; font-size: 1.05rem; font-style: italic; color: #3e4a66; text-align: right; opacity: 0; transition: opacity 1s ease-in-out; }
+#quote-author.visible { opacity: 1; }
+
+/* --- Botão Interno --- */
+#btn-read { 
+  margin-top: auto; background: #17284b; color: #f4e8d1; border: 1px solid #0d182e; padding: 14px; 
+  font-family: 'Cinzel', serif; font-size: 1.05rem; cursor: pointer; border-radius: 4px; 
+  transition: all 0.3s ease; letter-spacing: 1px; width: 100%; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+#btn-read:hover:not(:disabled) { background: #0d182e; transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0,0,0,0.4); }
+#btn-read:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* --- Cursor Mágico --- */
+.typing-cursor {
+  display: inline-block; width: 8px; height: 1.1em; background-color: #17284b; vertical-align: middle; margin-left: 4px; animation: blink-cursor 0.8s infinite;
+}
+@keyframes blink-cursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+/* --- Responsividade Mobile --- */
+@media (max-width: 768px) {
+  .book { transform: scale(0.65) rotateX(10deg) rotateY(-15deg); }
+  .book.open { transform: rotateX(0deg) rotateY(0deg) translateX(85px) scale(0.65); }
+  .library-background { height: 120vh; width: 120vw; }
+  .title-mini { font-size: 1.5rem; }
+  #quote-text { font-size: 1.1rem; }
+}
+
+@media (max-width: 480px) {
+  .book { transform: scale(0.55) rotateX(10deg) rotateY(-15deg); }
+  .book.open { transform: rotateX(0deg) rotateY(0deg) translateX(70px) scale(0.55); }
+}
